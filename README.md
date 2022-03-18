@@ -12,6 +12,8 @@ Follow the instructions on the [Setup](https://github.com/alnj/ncmpcpp-ueberzug/
 
 Check out [sacad](https://github.com/desbma/sacad) if you want to automatically download cover art for your music library.
 
+## Alx's changes
+Max width of 30 set and changed the scaler used in ueberzug so the art does not get cropped
 ## Compatibility
 
 #### Working:
@@ -19,7 +21,7 @@ Check out [sacad](https://github.com/desbma/sacad) if you want to automatically 
 * `kitty` (might use wrong terminal if using `--single-instance` flag)
 
 #### Require manually setting character size in `ncmpcpp_cover_art.sh`:
-* `cool-retro-term` 
+* `cool-retro-term`
 * `sakura` (resizing can break geometry)
 * `gnome-terminal`, `terminator`, `xfce4-terminal`  (Album art displays on the last opened terminal irrespective of which is the ncmpcpp window, resizing can break geometry)
 
