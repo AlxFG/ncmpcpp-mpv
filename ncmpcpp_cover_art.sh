@@ -14,7 +14,7 @@ force_square="false"
 square_alignment="top"
 
 left_aligned="true"
-padding_left=
+padding_left=0
 
 # Only set this if the geometries are wrong or ncmpcpp shouts at you to do it.
 # Visually select/highlight a character on your terminal, zoom in an image
