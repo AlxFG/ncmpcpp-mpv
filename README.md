@@ -8,6 +8,13 @@
 
 ## Install
 
+Dependencies:
+
+- ueberzug
+- ncmpcpp
+- mpc
+-ffmpeg
+
 Follow the instructions on the [Setup](https://github.com/alnj/ncmpcpp-ueberzug/wiki/Setup) wiki page.
 
 Check out [sacad](https://github.com/desbma/sacad) if you want to automatically download cover art for your music library.
