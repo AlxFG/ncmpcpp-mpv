@@ -1,0 +1,15 @@
+#!/bin/sh
+
+cleanup() {
+    rm /tmp/mpd_cover.jpg 2>/dev/null
+    pkill -P $$ 2>/dev/null
+}
+
+pkill -P $$ 2>/dev/null
+rm "$MPVSOCK" 2>/dev/null
+trap cleanup EXIT 2>/dev/null
+cp ~/.ncmpcpp/img/fallback.png /tmp/mpd_cover.jpg
+mpv --osd-level=0 --no-osc --autofit="28%" --keep-open=yes --idle=yes --loop-playlist --no-focus-on-open /tmp/mpd_cover.jpg &>/dev/null&
+
+ncmpcpp
+cleanup
