@@ -23,5 +23,4 @@ to get album art while using sway.
 * use `mpv --geometry` instead of relying window rules
 
 ## credits
-[https://github.com/tam-carre/ncmpcpp-ueberzug]
-('https://github.com/tam-carre/ncmpcpp-ueberzug')
+https://github.com/tam-carre/ncmpcpp-ueberzug
